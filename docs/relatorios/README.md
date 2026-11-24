@@ -13,4 +13,4 @@ pendências.
 | [005](005-decisoes-expansao-fase1.md) | 2026-11-24 | Decisões da expansão e fase 1 | Concluída e aprovada (prompt 006) |
 | [006](006-fase2-grimorio-arvore-proficiencia.md) | 2026-11-24 | Fase 2: grimório, árvore literal, proficiência | Concluída; aguardando avaliação |
 | [007](007-executavel-windows.md) | 2026-11-24 | Executável Windows 32 bits + pacote de teste | Gerado; falta rodar no Windows 11 |
-| [008](008-subir-para-git.md) | 2026-11-24 | Subir o projeto para o git | Commit local feito; aguardando remoto |
+| [008](008-subir-para-git.md) | 2026-11-24 | Subir o projeto para o git | Enviado para RaulDuque/spritespreed |

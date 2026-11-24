@@ -2,7 +2,7 @@
 numero: 008
 data: 2026-11-24
 prompt: ../prompts/008-subir-para-git.md
-status: commit local feito; push aguardando a escolha do repositório remoto
+status: concluído — enviado para github.com/RaulDuque/spritespreed
 ---
 
 # Relatório 008 — Subir o projeto para o git
@@ -19,5 +19,9 @@ Versionar o projeto no git e enviá-lo ao GitHub.
 - `dist/` continua fora do git, porque é artefato de build. O pacote pode ser gerado de novo com `tools/empacotar_windows.py`.
 - `docs/assets-user/` (cerca de 42 MB de referências de arte do usuário) entrou no commit. Nenhum arquivo passa de 100 MB, que é o limite do GitHub.
 
+## Envio
+- O `gh` não está instalado e não há token, então o usuário criou o repositório vazio `RaulDuque/spritespreed` no GitHub.
+- Remoto `origin` = `git@github-andvarion:RaulDuque/spritespreed.git` (usa a chave SSH `~/.ssh/andvarion`). Fiz o push do `main` com upstream configurado.
+
 ## Pendências
-- O `gh` não está instalado, e nenhum repositório existente é claramente o destino. É preciso o usuário escolher o remoto antes do push.
+- Nenhuma.
