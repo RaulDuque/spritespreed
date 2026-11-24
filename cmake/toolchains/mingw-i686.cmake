@@ -1,0 +1,46 @@
+# Compilação cruzada / nativa com MinGW-w64 para Windows 32 bits (i686).
+#   Linux:   sudo apt install mingw-w64            (i686-w64-mingw32-g++ ou -g++-posix)
+#   Windows: MSYS2 "MINGW32" -> pacman -S mingw-w64-i686-toolchain mingw-w64-i686-cmake
+set(CMAKE_SYSTEM_NAME Windows)
+set(CMAKE_SYSTEM_PROCESSOR i686)
+
+set(ANDV_MINGW_PREFIXO "i686-w64-mingw32" CACHE STRING "Prefixo do toolchain MinGW 32 bits")
+# Debian/Ubuntu instalam as variantes "-posix" e "-win32" (sem o nome simples às vezes).
+set(_sufixos "" "-posix" "-win32")
+set(_gcc "") 
+set(_gxx "")
+foreach(s IN LISTS _sufixos)
+  list(APPEND _gcc ${ANDV_MINGW_PREFIXO}-gcc${s})
+  list(APPEND _gxx ${ANDV_MINGW_PREFIXO}-g++${s})
+endforeach()
+if(CMAKE_HOST_WIN32)
+  list(APPEND _gcc gcc)   # MSYS2 MINGW32: o gcc do PATH já é o i686
+  list(APPEND _gxx g++)
+endif()
+find_program(ANDV_MINGW_GCC NAMES ${_gcc} REQUIRED)
+find_program(ANDV_MINGW_GXX NAMES ${_gxx} REQUIRED)
+find_program(ANDV_MINGW_RC  NAMES ${ANDV_MINGW_PREFIXO}-windres windres)
+set(CMAKE_C_COMPILER   ${ANDV_MINGW_GCC})
+set(CMAKE_CXX_COMPILER ${ANDV_MINGW_GXX})
+if(ANDV_MINGW_RC)
+  set(CMAKE_RC_COMPILER ${ANDV_MINGW_RC})
+endif()
+
+set(CMAKE_C_FLAGS_INIT   "-m32")
+set(CMAKE_CXX_FLAGS_INIT "-m32")
+set(CMAKE_EXE_LINKER_FLAGS_INIT "-m32")
+
+if(CMAKE_HOST_UNIX)
+  # Raiz do sysroot: ao lado do compilador (<prefixo>/<triplet>), ou /usr/<triplet>.
+  get_filename_component(_bin "${ANDV_MINGW_GCC}" DIRECTORY)
+  if(EXISTS "${_bin}/../${ANDV_MINGW_PREFIXO}")
+    get_filename_component(_raiz "${_bin}/../${ANDV_MINGW_PREFIXO}" ABSOLUTE)
+  else()
+    set(_raiz /usr/${ANDV_MINGW_PREFIXO})
+  endif()
+  set(CMAKE_FIND_ROOT_PATH "${_raiz}")
+  set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+  set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+  set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+  set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
+endif()

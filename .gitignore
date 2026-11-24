@@ -1,0 +1,22 @@
+# Builds (presets em build/<preset>/)
+build/
+out/
+cmake-build-*/
+.vs/
+*.user
+
+# Saves e temporários gerados pelo jogo
+saves/
+*.tmp
+
+# Capturas dos testes de fumaça (ANDV_ROTEIRO)
+*.png.tmp
+/[0-9][0-9]_*.png
+
+# pixelfx: saídas locais das ferramentas
+third_party/pixelfx/records/
+third_party/pixelfx/sheets/
+third_party/pixelfx/node_modules/
+
+__pycache__/
+dist/

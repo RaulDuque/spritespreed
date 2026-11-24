@@ -1,0 +1,281 @@
+{
+ "_comentario": "Receitas de VFX do pixelfx. chave = nome usado no C++ (VFXManager::tocar(\"chave\", ...)). id = efeito em third_party/pixelfx/src/fx. opcoes = meta.options do efeito (palette, seed, text...). Paletas: PAL.<nome> em src/core/color.js.",
+ "efeitos": [
+  {
+   "chave": "lamina_corte",
+   "id": "melee/sword-slash",
+   "opcoes": {
+    "palette": "metal"
+   }
+  },
+  {
+   "chave": "lamina_final",
+   "id": "melee/double-slash",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "adaga_corte",
+   "id": "melee/dagger-flurry",
+   "opcoes": {
+    "palette": "metal"
+   }
+  },
+  {
+   "chave": "machado_corte",
+   "id": "melee/heavy-cleave",
+   "opcoes": {}
+  },
+  {
+   "chave": "foice_corte",
+   "id": "melee/scythe-reap",
+   "opcoes": {
+    "palette": "shadow"
+   }
+  },
+  {
+   "chave": "bastao_golpe",
+   "id": "impacts/blunt-hit",
+   "opcoes": {}
+  },
+  {
+   "chave": "impacto_sangue",
+   "id": "impacts/hit-spark",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "impacto_critico",
+   "id": "impacts/crit-hit",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "flecha",
+   "id": "projectiles/arrow",
+   "opcoes": {}
+  },
+  {
+   "chave": "virote",
+   "id": "projectiles/arrow",
+   "opcoes": {
+    "palette": "metal",
+    "seed": 7
+   }
+  },
+  {
+   "chave": "bumerangue",
+   "id": "projectiles/energy-disc",
+   "opcoes": {
+    "palette": "wood"
+   }
+  },
+  {
+   "chave": "carga_disparo",
+   "id": "arcane/spell-charge",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "orbe_sangue",
+   "id": "arcane/arcane-orb",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "orbe_sangue_explosao",
+   "id": "explosions/implosion",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "nevoa_cortante",
+   "id": "nature/poison-cloud",
+   "opcoes": {
+    "palette": "arcane"
+   }
+  },
+  {
+   "chave": "correntes_sombrias",
+   "id": "shadow/shadow-tendrils",
+   "opcoes": {}
+  },
+  {
+   "chave": "sangria_vital",
+   "id": "shadow/life-steal",
+   "opcoes": {}
+  },
+  {
+   "chave": "sede_de_sangue",
+   "id": "status/rage",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "esquiva_sombria",
+   "id": "arcane/blink-out",
+   "opcoes": {
+    "palette": "shadow"
+   }
+  },
+  {
+   "chave": "tocha",
+   "id": "fire/torch",
+   "opcoes": {}
+  },
+  {
+   "chave": "braseiro",
+   "id": "fire/brazier",
+   "opcoes": {}
+  },
+  {
+   "chave": "subir_nivel",
+   "id": "ui/level-up",
+   "opcoes": {
+    "text": "NOVO NIVEL!"
+   }
+  },
+  {
+   "chave": "cura",
+   "id": "holy/heal",
+   "opcoes": {}
+  },
+  {
+   "chave": "habilidade_desbloqueada",
+   "id": "arcane/mana-burst",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "morte_inimigo",
+   "id": "spawn/disintegrate",
+   "opcoes": {
+    "palette": "shadow"
+   }
+  },
+  {
+   "chave": "coleta",
+   "id": "pickups/collect-burst",
+   "opcoes": {}
+  },
+  {
+   "chave": "fragmento_ferro",
+   "id": "pickups/crystal-shard",
+   "opcoes": {
+    "palette": "metal"
+   }
+  },
+  {
+   "chave": "erva_palida",
+   "id": "pickups/gem-spin",
+   "opcoes": {
+    "palette": "bone"
+   }
+  },
+  {
+   "chave": "morcego",
+   "id": "critters/bat",
+   "opcoes": {}
+  },
+  {
+   "chave": "nevoa_ambiente",
+   "id": "weather/fog",
+   "opcoes": {}
+  },
+  {
+   "chave": "bola_fogo",
+   "id": "fire/fireball",
+   "opcoes": {}
+  },
+  {
+   "chave": "bola_fogo_explosao",
+   "id": "explosions/plasma-explosion",
+   "opcoes": {
+    "palette": "fire"
+   }
+  },
+  {
+   "chave": "lanca_gelo",
+   "id": "ice/ice-lance",
+   "opcoes": {}
+  },
+  {
+   "chave": "gelo_impacto",
+   "id": "ice/ice-shatter",
+   "opcoes": {}
+  },
+  {
+   "chave": "lentidao",
+   "id": "status/slowed",
+   "opcoes": {}
+  },
+  {
+   "chave": "relampago",
+   "id": "lightning/chain-lightning",
+   "opcoes": {}
+  },
+  {
+   "chave": "relampago_impacto",
+   "id": "lightning/zap-hit",
+   "opcoes": {}
+  },
+  {
+   "chave": "escudo_arcano",
+   "id": "holy/divine-shield",
+   "opcoes": {
+    "palette": "arcane"
+   }
+  },
+  {
+   "chave": "drenar_vida",
+   "id": "shadow/soul-drain",
+   "opcoes": {
+    "palette": "blood"
+   }
+  },
+  {
+   "chave": "familiar",
+   "id": "critters/wisp",
+   "opcoes": {
+    "palette": "arcane"
+   }
+  },
+  {
+   "chave": "familiar_tiro",
+   "id": "projectiles/plasma-shot",
+   "opcoes": {
+    "palette": "arcane"
+   }
+  },
+  {
+   "chave": "teleporte_saida",
+   "id": "arcane/blink-out",
+   "opcoes": {}
+  },
+  {
+   "chave": "teleporte_entrada",
+   "id": "arcane/blink-in",
+   "opcoes": {}
+  },
+  {
+   "chave": "encantamento",
+   "id": "fire/spirit-flame",
+   "opcoes": {}
+  },
+  {
+   "chave": "impacto_fogo",
+   "id": "impacts/hit-spark",
+   "opcoes": {
+    "palette": "fire"
+   }
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "id": "ruinas_catedral",
+ "nome": "Ruínas da Catedral",
+ "seguro": false,
+ "tileset": "tilesets/gotico.png",
+ "tamanhoTile": 16,
+ "tamanhoTileArte": 32,
+ "ambiente": [
+  6,
+  8,
+  24,
+  222
+ ],
+ "legenda": {
+  ".": {
+   "chao": 0
+  },
+  ",": {
+   "chao": 1
+  },
+  ":": {
+   "chao": 2
+  },
+  "=": {
+   "chao": 3
+  },
+  ";": {
+   "chao": 4
+  },
+  "_": {
+   "chao": 5
+  },
+  "~": {
+   "chao": 6
+  },
+  "r": {
+   "chao": 7
+  },
+  "#": {
+   "chao": 5,
+   "parede": 8
+  },
+  "H": {
+   "chao": 5,
+   "parede": 9
+  },
+  "R": {
+   "chao": 0,
+   "parede": 10
+  },
+  "W": {
+   "chao": 0,
+   "parede": 11
+  },
+  "D": {
+   "chao": 0,
+   "parede": 12
+  },
+  "J": {
+   "chao": 0,
+   "parede": 13
+  },
+  "p": {
+   "chao": 5,
+   "parede": 14
+  },
+  " ": {
+   "chao": 15,
+   "parede": 15
+  },
+  "f": {
+   "chao": 0,
+   "decoracao": 16
+  },
+  "t": {
+   "chao": 0,
+   "decoracao": 17
+  },
+  "c": {
+   "chao": 3,
+   "decoracao": 18
+  },
+  "b": {
+   "chao": 3,
+   "decoracao": 19
+  },
+  "x": {
+   "chao": 5,
+   "decoracao": 20
+  },
+  "e": {
+   "chao": 5,
+   "decoracao": 21
+  },
+  "A": {
+   "chao": 3,
+   "decoracao": 22
+  },
+  "a": {
+   "chao": 7,
+   "decoracao": 23
+  },
+  "g": {
+   "chao": 0,
+   "decoracao": 29
+  },
+  "m": {
+   "chao": 5,
+   "decoracao": 30
+  },
+  "v": {
+   "chao": 5,
+   "decoracao": 31
+  },
+  "T": {
+   "chao": 0,
+   "decoracao": 32,
+   "alto": true
+  },
+  "P": {
+   "chao": 5,
+   "decoracao": 33,
+   "alto": true
+  },
+  "L": {
+   "chao": 3,
+   "decoracao": 34,
+   "alto": true
+  },
+  "S": {
+   "chao": 3,
+   "decoracao": 35,
+   "alto": true
+  },
+  "k": {
+   "chao": 3,
+   "decoracao": 36
+  },
+  "o": {
+   "chao": 3,
+   "decoracao": 37
+  },
+  "G": {
+   "chao": 5,
+   "parede": 38
+  },
+  "Q": {
+   "chao": 5,
+   "decoracao": 32,
+   "alto": true
+  },
+  "y": {
+   "chao": 5,
+   "decoracao": 17
+  },
+  "z": {
+   "chao": 3,
+   "decoracao": 33,
+   "alto": true
+  }
+ },
+ "solidos": [
+  16,
+  17,
+  18,
+  19,
+  21,
+  22,
+  23,
+  32,
+  33,
+  34,
+  35,
+  37
+ ],
+ "linhas": [
+  "                       ###############                    ",
+  "                       #HHHHHHHHHHHHH#                    ",
+  "                       #_____________##                   ",
+  "                       #~P___rar~__P_H#                   ",
+  "                       #_____rrr_____e#                   ",
+  "                       #_____rrr__~_~##                   ",
+  "                       #~_v__rrr_~v__#                    ",
+  "                       #_~___rrr_____#                    ",
+  "                       #_____________#                    ",
+  "                    ########_____########                 ",
+  "                    #HHHHHHH_____HHHHHHH#                 ",
+  "                    #_~_~____rrr_~___~__#  ############## ",
+  "                    #_e______rrr_~____x_#  #HHHHHHHHHHHH# ",
+  " #############      #~__P__P_rrr~P_~P___#  #~~__~_~_____# ",
+  " #HHHHHHHHHHH#      #~~_~__~~rrr______~~#  #_P________P_# ",
+  " #_~______~__#      #__~_____rrr_~__~___#  #____________# ",
+  " #_P_~__e~_P_#      #________rrr________#  #_~y_y~y_y_~_# ",
+  "##~_~~_~____~########___P__P_rrr_P__P~__####~__~~___~~__# ",
+  "HH_~_m_______HHHHHHHH_____~__rrr________HHHHv_____~_____# ",
+  "____~______~_~_______________rrr_____~_____~________~___# ",
+  "_~_______________________~___rrr__~_~____~_____x__~____e# ",
+  "_____________~__________P_~P_rrr_P_~P_____~_~~_______x~_# ",
+  "##~~_______~_########________rrr__~___~_####~___~__~____# ",
+  " #~___x___~__#      #__~__~__rrr_____~~~#  #_____~____~_# ",
+  " #~P__~____P_#      #___~____rrr________#  #__y_y_y_y___# ",
+  " #~~~___~____#      #~__P__P_rrr_P__P___#  #__~_____~__v# ",
+  " #############      #________rrr____~__~#  #_P____m___P_# ",
+  "                    #________rrr_____~__#  #_____~~~__~_# ",
+  "                    #_x~__~__rrr____~_e~#  ############## ",
+  "                    #_~_~__~_rrr_______~#                 ",
+  "                    ########_~~##########                 ",
+  "                     #HHHHHH_~_HHHHHH#                    ",
+  "                     #_____~______~v_#                    ",
+  "                     #_x_____~____e~_#                    ",
+  "                     #________~__x___#                    ",
+  "                     #_~_e_________~_#                    ",
+  "                     #_v_____~~______#                    ",
+  "                     #__m_x__~__~__x_#                    ",
+  "                     #_~_~___________#                    ",
+  "                     #################                    "
+ ],
+ "objetos": [
+  {
+   "tipo": "spawn",
+   "nome": "entrada",
+   "x": 3,
+   "y": 20
+  },
+  {
+   "tipo": "transicao",
+   "x": 0,
+   "y": 19,
+   "w": 1,
+   "h": 3,
+   "destino": "vila_cinzavale",
+   "spawn": "estrada",
+   "rotulo": "Vila de Cinzavale"
+  },
+  {
+   "tipo": "tocha",
+   "x": 4,
+   "y": 14.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 10,
+   "y": 14.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 23,
+   "y": 10.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 37,
+   "y": 10.9
+  },
+  {
+   "tipo": "braseiro",
+   "x": 30,
+   "y": 15
+  },
+  {
+   "tipo": "braseiro",
+   "x": 30,
+   "y": 25
+  },
+  {
+   "tipo": "tocha",
+   "x": 27,
+   "y": 1.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 33,
+   "y": 1.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 47,
+   "y": 12.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 52,
+   "y": 12.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 25,
+   "y": 31.9
+  },
+  {
+   "tipo": "tocha",
+   "x": 33,
+   "y": 31.9
+  },
+  {
+   "tipo": "luz",
+   "x": 30,
+   "y": 4,
+   "raio": 4,
+   "cor": [
+    220,
+    40,
+    60
+   ]
+  },
+  {
+   "tipo": "luz",
+   "x": 50,
+   "y": 20,
+   "raio": 3,
+   "cor": [
+    110,
+    140,
+    255
+   ]
+  },
+  {
+   "tipo": "vfx",
+   "chave": "nevoa_ambiente",
+   "x": 30,
+   "y": 24,
+   "escala": 1.0
+  },
+  {
+   "tipo": "vfx",
+   "chave": "nevoa_ambiente",
+   "x": 50,
+   "y": 24,
+   "escala": 0.7
+  },
+  {
+   "tipo": "vfx",
+   "chave": "nevoa_ambiente",
+   "x": 29,
+   "y": 38,
+   "escala": 0.8
+  },
+  {
+   "tipo": "vfx",
+   "chave": "morcego",
+   "x": 26,
+   "y": 13,
+   "escala": 0.25
+  },
+  {
+   "tipo": "vfx",
+   "chave": "morcego",
+   "x": 49,
+   "y": 15,
+   "escala": 0.22
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "carnical",
+   "x": 9,
+   "y": 22,
+   "patrulha": [
+    [
+     9,
+     22
+    ],
+    [
+     9,
+     17
+    ],
+    [
+     5,
+     17
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "cultista",
+   "x": 25,
+   "y": 15,
+   "patrulha": [
+    [
+     25,
+     15
+    ],
+    [
+     35,
+     15
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "cultista",
+   "x": 35,
+   "y": 23,
+   "patrulha": [
+    [
+     35,
+     23
+    ],
+    [
+     25,
+     23
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "cultista",
+   "x": 30,
+   "y": 19
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "carnical",
+   "x": 26,
+   "y": 27,
+   "patrulha": [
+    [
+     26,
+     27
+    ],
+    [
+     34,
+     27
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "cultista",
+   "x": 27,
+   "y": 5,
+   "patrulha": [
+    [
+     27,
+     5
+    ],
+    [
+     33,
+     5
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "cultista",
+   "x": 33,
+   "y": 7
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "cultista",
+   "x": 31,
+   "y": 13
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "carnical",
+   "x": 48,
+   "y": 18,
+   "patrulha": [
+    [
+     48,
+     18
+    ],
+    [
+     52,
+     22
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "carnical",
+   "x": 52,
+   "y": 18,
+   "patrulha": [
+    [
+     52,
+     18
+    ],
+    [
+     47,
+     23
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "carnical",
+   "x": 50,
+   "y": 25
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "carnical",
+   "x": 27,
+   "y": 35,
+   "patrulha": [
+    [
+     27,
+     35
+    ],
+    [
+     32,
+     35
+    ]
+   ]
+  },
+  {
+   "tipo": "inimigo",
+   "classe": "carnical",
+   "x": 32,
+   "y": 37,
+   "patrulha": [
+    [
+     32,
+     37
+    ],
+    [
+     24,
+     34
+    ]
+   ]
+  },
+  {
+   "tipo": "item",
+   "id": "selo_profano",
+   "x": 30,
+   "y": 5,
+   "uid": "ruinas_selo"
+  },
+  {
+   "tipo": "item",
+   "id": "erva_palida",
+   "x": 23,
+   "y": 37,
+   "uid": "ruinas_erva_1"
+  },
+  {
+   "tipo": "item",
+   "id": "erva_palida",
+   "x": 35,
+   "y": 33,
+   "uid": "ruinas_erva_2"
+  },
+  {
+   "tipo": "item",
+   "id": "erva_palida",
+   "x": 55,
+   "y": 14,
+   "uid": "ruinas_erva_3"
+  },
+  {
+   "tipo": "item",
+   "id": "erva_palida",
+   "x": 45,
+   "y": 27,
+   "uid": "ruinas_erva_4"
+  },
+  {
+   "tipo": "item",
+   "id": "erva_palida",
+   "x": 22,
+   "y": 25,
+   "uid": "ruinas_erva_5"
+  }
+ ]
+}

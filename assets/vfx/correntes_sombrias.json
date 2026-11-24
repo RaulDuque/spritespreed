@@ -1,0 +1,1117 @@
+{
+ "frames": [
+  {
+   "filename": "correntes_sombrias 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 1",
+   "frame": {
+    "x": 208,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 2",
+   "frame": {
+    "x": 416,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 3",
+   "frame": {
+    "x": 624,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 4",
+   "frame": {
+    "x": 832,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 5",
+   "frame": {
+    "x": 1040,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 6",
+   "frame": {
+    "x": 0,
+    "y": 130,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 7",
+   "frame": {
+    "x": 208,
+    "y": 130,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 8",
+   "frame": {
+    "x": 416,
+    "y": 130,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 9",
+   "frame": {
+    "x": 624,
+    "y": 130,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 10",
+   "frame": {
+    "x": 832,
+    "y": 130,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 11",
+   "frame": {
+    "x": 1040,
+    "y": 130,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 12",
+   "frame": {
+    "x": 0,
+    "y": 260,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 13",
+   "frame": {
+    "x": 208,
+    "y": 260,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 14",
+   "frame": {
+    "x": 416,
+    "y": 260,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 15",
+   "frame": {
+    "x": 624,
+    "y": 260,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 16",
+   "frame": {
+    "x": 832,
+    "y": 260,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 17",
+   "frame": {
+    "x": 1040,
+    "y": 260,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 18",
+   "frame": {
+    "x": 0,
+    "y": 390,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 19",
+   "frame": {
+    "x": 208,
+    "y": 390,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 20",
+   "frame": {
+    "x": 416,
+    "y": 390,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 21",
+   "frame": {
+    "x": 624,
+    "y": 390,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 22",
+   "frame": {
+    "x": 832,
+    "y": 390,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 23",
+   "frame": {
+    "x": 1040,
+    "y": 390,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 24",
+   "frame": {
+    "x": 0,
+    "y": 520,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 25",
+   "frame": {
+    "x": 208,
+    "y": 520,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 26",
+   "frame": {
+    "x": 416,
+    "y": 520,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 27",
+   "frame": {
+    "x": 624,
+    "y": 520,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 28",
+   "frame": {
+    "x": 832,
+    "y": 520,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 29",
+   "frame": {
+    "x": 1040,
+    "y": 520,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 30",
+   "frame": {
+    "x": 0,
+    "y": 650,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 31",
+   "frame": {
+    "x": 208,
+    "y": 650,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 32",
+   "frame": {
+    "x": 416,
+    "y": 650,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 33",
+   "frame": {
+    "x": 624,
+    "y": 650,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 34",
+   "frame": {
+    "x": 832,
+    "y": 650,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 35",
+   "frame": {
+    "x": 1040,
+    "y": 650,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 36",
+   "frame": {
+    "x": 0,
+    "y": 780,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 37",
+   "frame": {
+    "x": 208,
+    "y": 780,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 38",
+   "frame": {
+    "x": 416,
+    "y": 780,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 39",
+   "frame": {
+    "x": 624,
+    "y": 780,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 40",
+   "frame": {
+    "x": 832,
+    "y": 780,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 41",
+   "frame": {
+    "x": 1040,
+    "y": 780,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 42",
+   "frame": {
+    "x": 0,
+    "y": 910,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 43",
+   "frame": {
+    "x": 208,
+    "y": 910,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 44",
+   "frame": {
+    "x": 416,
+    "y": 910,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 45",
+   "frame": {
+    "x": 624,
+    "y": 910,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 46",
+   "frame": {
+    "x": 832,
+    "y": 910,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 47",
+   "frame": {
+    "x": 1040,
+    "y": 910,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  },
+  {
+   "filename": "correntes_sombrias 48",
+   "frame": {
+    "x": 0,
+    "y": 1040,
+    "w": 208,
+    "h": 130
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 130
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "correntes_sombrias.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1248,
+   "h": 1170
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "correntes_sombrias",
+    "from": 0,
+    "to": 48,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "shadow/shadow-tendrils",
+   "name": "Shadow tendrils",
+   "fps": 15,
+   "loop": false,
+   "frames": 49,
+   "frameSize": [
+    208,
+    130
+   ],
+   "pivot": [
+    104,
+    106
+   ],
+   "columns": 6
+  }
+ }
+}

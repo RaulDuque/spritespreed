@@ -1,0 +1,786 @@
+{
+ "galhos": [
+  {
+   "id": "lamina",
+   "nome": "Lâmina",
+   "ramo": "guerreiro",
+   "escola": "",
+   "angulo": -78,
+   "comprimento": 96
+  },
+  {
+   "id": "vigor",
+   "nome": "Vigor",
+   "ramo": "guerreiro",
+   "escola": "",
+   "angulo": -48,
+   "comprimento": 96
+  },
+  {
+   "id": "encantamento_lamina",
+   "nome": "Encantamento de Lâmina",
+   "ramo": "guerreiro",
+   "escola": "fogo",
+   "angulo": -18,
+   "comprimento": 96
+  },
+  {
+   "id": "pontaria",
+   "nome": "Pontaria",
+   "ramo": "arqueiro",
+   "escola": "",
+   "angulo": 18,
+   "comprimento": 96
+  },
+  {
+   "id": "teleporte",
+   "nome": "Teleporte Curto",
+   "ramo": "arqueiro",
+   "escola": "arcano",
+   "angulo": 48,
+   "comprimento": 96
+  },
+  {
+   "id": "familiar",
+   "nome": "Invocação de Familiar",
+   "ramo": "arqueiro",
+   "escola": "arcano",
+   "angulo": 78,
+   "comprimento": 96
+  },
+  {
+   "id": "orbe_sangue",
+   "nome": "Orbe de Sangue",
+   "ramo": "mago",
+   "escola": "sangue",
+   "angulo": -76.0,
+   "comprimento": 128
+  },
+  {
+   "id": "nevoa_cortante",
+   "nome": "Névoa Cortante",
+   "ramo": "mago",
+   "escola": "sombra",
+   "angulo": -57.0,
+   "comprimento": 104
+  },
+  {
+   "id": "correntes_sombrias",
+   "nome": "Correntes Sombrias",
+   "ramo": "mago",
+   "escola": "sombra",
+   "angulo": -38.0,
+   "comprimento": 128
+  },
+  {
+   "id": "sangria_vital",
+   "nome": "Sangria Vital",
+   "ramo": "mago",
+   "escola": "sangue",
+   "angulo": -19.0,
+   "comprimento": 104
+  },
+  {
+   "id": "bola_fogo",
+   "nome": "Bola de Fogo",
+   "ramo": "mago",
+   "escola": "fogo",
+   "angulo": 0.0,
+   "comprimento": 128
+  },
+  {
+   "id": "lanca_gelo",
+   "nome": "Lança de Gelo",
+   "ramo": "mago",
+   "escola": "gelo",
+   "angulo": 19.0,
+   "comprimento": 104
+  },
+  {
+   "id": "relampago",
+   "nome": "Relâmpago em Cadeia",
+   "ramo": "mago",
+   "escola": "raio",
+   "angulo": 38.0,
+   "comprimento": 128
+  },
+  {
+   "id": "escudo_arcano",
+   "nome": "Escudo Arcano",
+   "ramo": "mago",
+   "escola": "arcano",
+   "angulo": 57.0,
+   "comprimento": 104
+  },
+  {
+   "id": "drenar_vida",
+   "nome": "Drenar Vida",
+   "ramo": "mago",
+   "escola": "sangue",
+   "angulo": 76.0,
+   "comprimento": 128
+  }
+ ],
+ "nos": [
+  {
+   "id": "fio_afiado",
+   "nome": "Fio Afiado",
+   "descricao": "+15% de dano da Lâmina.",
+   "galho": "lamina",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 1,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "danoLamina",
+    "valor": 0.15
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "golpe_brutal",
+   "nome": "Brutal",
+   "descricao": "+20% de dano da Lâmina.",
+   "galho": "lamina",
+   "ordem": 1,
+   "custo": 2,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "danoLamina",
+    "valor": 0.2
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "corte_fugaz",
+   "nome": "Corte Fugaz",
+   "descricao": "A Esquiva Sombria corta quem você atravessa e drena essência.",
+   "galho": "lamina",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "passiva",
+    "alvo": "esquiva_cortante",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "vigor_ferreo",
+   "nome": "Vigor",
+   "descricao": "+25 de Vigor máximo.",
+   "galho": "vigor",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 1,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "vigorMax",
+    "valor": 25
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "vitalidade",
+   "nome": "Vitalidade",
+   "descricao": "+30 de Vida máxima.",
+   "galho": "vigor",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 1,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "vidaMax",
+    "valor": 30
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "passo_leve",
+   "nome": "Passo Leve",
+   "descricao": "+10% de velocidade de movimento.",
+   "galho": "vigor",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "velocidade",
+    "valor": 0.1
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "encantamento_lamina",
+   "nome": "Encantamento",
+   "descricao": "Magia: a lâmina pega fogo por 10 s (+50% de dano corpo a corpo).",
+   "galho": "encantamento_lamina",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "encantamento_lamina",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "fio_em_brasa",
+   "nome": "Fio em Brasa",
+   "descricao": "Encantamento: +25% de dano extra.",
+   "galho": "encantamento_lamina",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "encantamento_lamina.dano",
+    "valor": 0.25
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "chama_duradoura",
+   "nome": "Chama Duradoura",
+   "descricao": "Encantamento dura +6 s.",
+   "galho": "encantamento_lamina",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "encantamento_lamina.duracao",
+    "valor": 6
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "olho_cacador",
+   "nome": "Caçador",
+   "descricao": "+15% de dano à distância.",
+   "galho": "pontaria",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 1,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "danoDistancia",
+    "valor": 0.15
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "tiro_triplo",
+   "nome": "Tiro Triplo",
+   "descricao": "Disparos carregados de arco e besta saem em leque de três.",
+   "galho": "pontaria",
+   "ordem": 1,
+   "custo": 2,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "passiva",
+    "alvo": "disparo_triplo",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "seta_rubra",
+   "nome": "Seta Rubra",
+   "descricao": "+20% de dano à distância.",
+   "galho": "pontaria",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "danoDistancia",
+    "valor": 0.2
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "teleporte",
+   "nome": "Teleporte",
+   "descricao": "Magia: reaparece até 90 passos na direção da mira.",
+   "galho": "teleporte",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "teleporte",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "passo_longo",
+   "nome": "Passo Longo",
+   "descricao": "Teleporte alcança +40.",
+   "galho": "teleporte",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "teleporte.alcance",
+    "valor": 40
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "rastro_arcano",
+   "nome": "Rastro Arcano",
+   "descricao": "Teleporte recarrega 30% mais rápido.",
+   "galho": "teleporte",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "teleporte.recarga",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "familiar",
+   "nome": "Familiar",
+   "descricao": "Magia: um espírito orbita você por 20 s e dispara nos inimigos.",
+   "galho": "familiar",
+   "ordem": 0,
+   "custo": 2,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "familiar",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "laco_familiar",
+   "nome": "Laço",
+   "descricao": "O familiar fica +10 s.",
+   "galho": "familiar",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "familiar.duracao",
+    "valor": 10
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "matilha",
+   "nome": "Matilha",
+   "descricao": "Invoca um segundo familiar.",
+   "galho": "familiar",
+   "ordem": 2,
+   "custo": 2,
+   "nivelMinimo": 6,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "familiar.extra",
+    "valor": 1
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "orbe_sangue",
+   "nome": "Orbe",
+   "descricao": "Magia [1]: Orbe de Sangue. Explode ao tocar.",
+   "galho": "orbe_sangue",
+   "ordem": 0,
+   "custo": 0,
+   "nivelMinimo": 1,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "orbe_sangue",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "sede_voraz",
+   "nome": "Sede Voraz",
+   "descricao": "Golpes de Lâmina drenam 50% mais Mana.",
+   "galho": "orbe_sangue",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 1,
+   "efeito": {
+    "tipo": "passiva",
+    "alvo": "drenagem_voraz",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "sangue_denso",
+   "nome": "Sangue Vil",
+   "descricao": "+20% de dano mágico.",
+   "galho": "orbe_sangue",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "danoMagia",
+    "valor": 0.2
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "nevoa_cortante",
+   "nome": "Névoa",
+   "descricao": "Magia [2]: Névoa Cortante. Fere tudo dentro dela.",
+   "galho": "nevoa_cortante",
+   "ordem": 0,
+   "custo": 0,
+   "nivelMinimo": 1,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "nevoa_cortante",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "nevoa_densa",
+   "nome": "Névoa Densa",
+   "descricao": "Névoa Cortante: +30% de dano.",
+   "galho": "nevoa_cortante",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "nevoa_cortante.dano",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "calice",
+   "nome": "Cálice",
+   "descricao": "+25 de Mana máxima.",
+   "galho": "nevoa_cortante",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "manaMax",
+    "valor": 25
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "correntes_sombrias",
+   "nome": "Correntes",
+   "descricao": "Magia: Correntes Sombrias. Prende inimigos no lugar.",
+   "galho": "correntes_sombrias",
+   "ordem": 0,
+   "custo": 2,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "correntes_sombrias",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "mente_arcana",
+   "nome": "Arcano",
+   "descricao": "+1,5 de regeneração de Mana por segundo.",
+   "galho": "correntes_sombrias",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "regenMana",
+    "valor": 1.5
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "sangria_vital",
+   "nome": "Sangria",
+   "descricao": "Magia: rouba a vida dos inimigos próximos.",
+   "galho": "sangria_vital",
+   "ordem": 0,
+   "custo": 2,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "sangria_vital",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "sede_eterna",
+   "nome": "Sede Eterna",
+   "descricao": "A Sede de Sangue dura 8 s e vale para 2 ataques.",
+   "galho": "sangria_vital",
+   "ordem": 1,
+   "custo": 2,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "passiva",
+    "alvo": "sede_prolongada",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "furia_rubra",
+   "nome": "Fúria Rubra",
+   "descricao": "A Sede de Sangue concede +30% de dano extra.",
+   "galho": "sangria_vital",
+   "ordem": 2,
+   "custo": 2,
+   "nivelMinimo": 5,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "sedeDano",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "bola_fogo",
+   "nome": "Bola de Fogo",
+   "descricao": "Magia: esfera de chamas que explode em área.",
+   "galho": "bola_fogo",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "bola_fogo",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "brasa_viva",
+   "nome": "Brasa Viva",
+   "descricao": "Bola de Fogo: +30% de dano.",
+   "galho": "bola_fogo",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "bola_fogo.dano",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "inferno",
+   "nome": "Inferno",
+   "descricao": "Bola de Fogo: explosão +12 de raio.",
+   "galho": "bola_fogo",
+   "ordem": 2,
+   "custo": 2,
+   "nivelMinimo": 5,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "bola_fogo.raio",
+    "valor": 12
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "lanca_gelo",
+   "nome": "Lança de Gelo",
+   "descricao": "Magia: atravessa inimigos e os deixa lentos.",
+   "galho": "lanca_gelo",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "lanca_gelo",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "gelo_eterno",
+   "nome": "Gelo Eterno",
+   "descricao": "Lentidão dura +1,5 s.",
+   "galho": "lanca_gelo",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "lanca_gelo.lentidao",
+    "valor": 1.5
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "estilhacos",
+   "nome": "Estilhaços",
+   "descricao": "Lança de Gelo: +30% de dano.",
+   "galho": "lanca_gelo",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "lanca_gelo.dano",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "relampago",
+   "nome": "Relâmpago",
+   "descricao": "Magia: raio que salta entre até 4 inimigos.",
+   "galho": "relampago",
+   "ordem": 0,
+   "custo": 2,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "relampago",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "tempestade",
+   "nome": "Tempestade",
+   "descricao": "O raio salta para +2 inimigos.",
+   "galho": "relampago",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "relampago.alvos",
+    "valor": 2
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "sobrecarga",
+   "nome": "Sobrecarga",
+   "descricao": "Relâmpago: +30% de dano.",
+   "galho": "relampago",
+   "ordem": 2,
+   "custo": 2,
+   "nivelMinimo": 6,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "relampago.dano",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "escudo_arcano",
+   "nome": "Escudo Arcano",
+   "descricao": "Magia: absorve até 40 de dano por 8 s.",
+   "galho": "escudo_arcano",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "escudo_arcano",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "egide",
+   "nome": "Égide",
+   "descricao": "O escudo absorve +30.",
+   "galho": "escudo_arcano",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "escudo_arcano.pontos",
+    "valor": 30
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "reflexo",
+   "nome": "Reflexo",
+   "descricao": "Escudo Arcano recarrega 25% mais rápido.",
+   "galho": "escudo_arcano",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "escudo_arcano.recarga",
+    "valor": 0.25
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "drenar_vida",
+   "nome": "Drenar Vida",
+   "descricao": "Magia: suga a vida do inimigo mais perto da mira.",
+   "galho": "drenar_vida",
+   "ordem": 0,
+   "custo": 1,
+   "nivelMinimo": 2,
+   "efeito": {
+    "tipo": "feitico",
+    "alvo": "drenar_vida",
+    "valor": 0
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "sede_vampirica",
+   "nome": "Vampírico",
+   "descricao": "Drenar Vida cura +30%.",
+   "galho": "drenar_vida",
+   "ordem": 1,
+   "custo": 1,
+   "nivelMinimo": 3,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "drenar_vida.cura",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  },
+  {
+   "id": "fome",
+   "nome": "Fome",
+   "descricao": "Drenar Vida: +30% de dano.",
+   "galho": "drenar_vida",
+   "ordem": 2,
+   "custo": 1,
+   "nivelMinimo": 4,
+   "efeito": {
+    "tipo": "atributo",
+    "alvo": "drenar_vida.dano",
+    "valor": 0.3
+   },
+   "vfx": "habilidade_desbloqueada"
+  }
+ ]
+}

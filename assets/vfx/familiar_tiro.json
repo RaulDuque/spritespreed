@@ -1,0 +1,303 @@
+{
+ "frames": [
+  {
+   "filename": "familiar_tiro 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 1",
+   "frame": {
+    "x": 144,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 2",
+   "frame": {
+    "x": 288,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 3",
+   "frame": {
+    "x": 0,
+    "y": 60,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 4",
+   "frame": {
+    "x": 144,
+    "y": 60,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 5",
+   "frame": {
+    "x": 288,
+    "y": 60,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 6",
+   "frame": {
+    "x": 0,
+    "y": 120,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 7",
+   "frame": {
+    "x": 144,
+    "y": 120,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 8",
+   "frame": {
+    "x": 288,
+    "y": 120,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 9",
+   "frame": {
+    "x": 0,
+    "y": 180,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 10",
+   "frame": {
+    "x": 144,
+    "y": 180,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  },
+  {
+   "filename": "familiar_tiro 11",
+   "frame": {
+    "x": 288,
+    "y": 180,
+    "w": 144,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 60
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "familiar_tiro.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 432,
+   "h": 240
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "familiar_tiro",
+    "from": 0,
+    "to": 11,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "projectiles/plasma-shot",
+   "name": "Plasma shot",
+   "fps": 15,
+   "loop": true,
+   "frames": 12,
+   "frameSize": [
+    144,
+    60
+   ],
+   "pivot": [
+    108,
+    30
+   ],
+   "columns": 3
+  }
+ }
+}

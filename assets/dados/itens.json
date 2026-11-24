@@ -1,0 +1,202 @@
+{
+ "itens": [
+  {
+   "id": "espada_prata",
+   "nome": "Espada Longa de Prata",
+   "descricao": "Equilibrada e rápida. Prata fere o que não deveria existir.",
+   "categoria": "equipamento",
+   "slot": "arma",
+   "visual": "sprites/equip/espada_prata",
+   "atributos": {},
+   "arma": "espada"
+  },
+  {
+   "id": "adagas_gemeas",
+   "nome": "Adagas Gêmeas",
+   "descricao": "Golpes curtos e velozes; drenam pouca essência por corte.",
+   "categoria": "equipamento",
+   "slot": "arma",
+   "visual": "sprites/equip/adagas_gemeas",
+   "atributos": {
+    "velocidade": 0.05
+   },
+   "arma": "adaga"
+  },
+  {
+   "id": "machado_carrasco",
+   "nome": "Machado do Carrasco",
+   "descricao": "Lento, brutal, derruba quem estiver na frente.",
+   "categoria": "equipamento",
+   "slot": "arma",
+   "visual": "sprites/equip/machado_carrasco",
+   "atributos": {
+    "velocidade": -0.05
+   },
+   "arma": "machado"
+  },
+  {
+   "id": "foice_ceifador",
+   "nome": "Foice do Ceifador",
+   "descricao": "Um arco enorme de corte. Ceifa vários de uma vez.",
+   "categoria": "equipamento",
+   "slot": "arma",
+   "visual": "sprites/equip/foice_ceifador",
+   "atributos": {},
+   "arma": "foice"
+  },
+  {
+   "id": "bastao_arcano",
+   "nome": "Bastão Arcano",
+   "descricao": "Foco de magia: cada acerto drena muita essência.",
+   "categoria": "equipamento",
+   "slot": "arma",
+   "visual": "sprites/equip/bastao_arcano",
+   "atributos": {
+    "danoMagia": 0.1
+   },
+   "arma": "bastao"
+  },
+  {
+   "id": "arco_teixo",
+   "nome": "Arco de Teixo",
+   "descricao": "Flechas rápidas; carregado, atravessa inimigos.",
+   "categoria": "equipamento",
+   "slot": "distancia",
+   "visual": "sprites/equip/arco_teixo",
+   "atributos": {},
+   "arma": "arco"
+  },
+  {
+   "id": "besta_cacador",
+   "nome": "Besta de Caçador",
+   "descricao": "Virotes pesados e lentos de recarregar.",
+   "categoria": "equipamento",
+   "slot": "distancia",
+   "visual": "sprites/equip/besta_cacador",
+   "atributos": {},
+   "arma": "besta"
+  },
+  {
+   "id": "bumerangue_osso",
+   "nome": "Bumerangue de Osso",
+   "descricao": "Vai e volta. Fere na ida e na volta.",
+   "categoria": "equipamento",
+   "slot": "distancia",
+   "visual": "sprites/equip/bumerangue_osso",
+   "atributos": {},
+   "arma": "bumerangue"
+  },
+  {
+   "id": "sobretudo_gotico",
+   "nome": "Sobretudo Gótico",
+   "descricao": "Couro negro forrado de carmesim. Leve e silencioso.",
+   "categoria": "equipamento",
+   "slot": "armadura",
+   "visual": "sprites/equip/sobretudo_gotico",
+   "atributos": {
+    "defesa": 4,
+    "velocidade": 0.03
+   }
+  },
+  {
+   "id": "armadura_cavaleiro",
+   "nome": "Armadura de Cavaleiro",
+   "descricao": "Placas de aço polido. Muita defesa, passos pesados.",
+   "categoria": "equipamento",
+   "slot": "armadura",
+   "visual": "sprites/equip/armadura_cavaleiro",
+   "atributos": {
+    "defesa": 14,
+    "vidaMax": 20,
+    "velocidade": -0.08
+   }
+  },
+  {
+   "id": "tunica_mago",
+   "nome": "Túnica de Mago",
+   "descricao": "Tecido violeta bordado com runas. Amplifica feitiços.",
+   "categoria": "equipamento",
+   "slot": "armadura",
+   "visual": "sprites/equip/tunica_mago",
+   "atributos": {
+    "defesa": 2,
+    "manaMax": 25,
+    "danoMagia": 0.15
+   }
+  },
+  {
+   "id": "capa_carmesim",
+   "nome": "Capa Carmesim",
+   "descricao": "Uma capa longa da cor do sangue seco.",
+   "categoria": "equipamento",
+   "slot": "capa",
+   "visual": "sprites/equip/capa_carmesim",
+   "atributos": {
+    "defesa": 1
+   }
+  },
+  {
+   "id": "escudo_leao",
+   "nome": "Escudo do Leão",
+   "descricao": "Escudo de aço com um leão em relevo.",
+   "categoria": "equipamento",
+   "slot": "escudo",
+   "visual": "sprites/equip/escudo_leao",
+   "atributos": {
+    "defesa": 8,
+    "velocidade": -0.03
+   }
+  },
+  {
+   "id": "frasco_sangue",
+   "nome": "Frasco de Sangue",
+   "descricao": "Restaura 45% da vida. Use com F.",
+   "categoria": "consumivel",
+   "vfx": "cura"
+  },
+  {
+   "id": "fragmento_ferro",
+   "nome": "Fragmento de Ferro Amaldiçoado",
+   "descricao": "Ferro negro arrancado da carne dos carniçais. Ainda pulsa.",
+   "categoria": "material",
+   "vfx": "fragmento_ferro"
+  },
+  {
+   "id": "erva_palida",
+   "nome": "Erva Pálida",
+   "descricao": "Floresce só onde os mortos dormem. Cura a memória e a carne.",
+   "categoria": "material",
+   "vfx": "erva_palida"
+  },
+  {
+   "id": "selo_profano",
+   "nome": "Selo Profano",
+   "descricao": "Um selo de cera e sangue com o símbolo dos cultistas.",
+   "categoria": "missao",
+   "vfx": "orbe_sangue"
+  }
+ ],
+ "kitInicial": {
+  "itens": [
+   "espada_prata",
+   "adagas_gemeas",
+   "machado_carrasco",
+   "foice_ceifador",
+   "bastao_arcano",
+   "arco_teixo",
+   "besta_cacador",
+   "bumerangue_osso",
+   "sobretudo_gotico",
+   "armadura_cavaleiro",
+   "tunica_mago",
+   "capa_carmesim",
+   "escudo_leao"
+  ],
+  "equipados": [
+   "espada_prata",
+   "arco_teixo",
+   "sobretudo_gotico",
+   "capa_carmesim"
+  ]
+ }
+}

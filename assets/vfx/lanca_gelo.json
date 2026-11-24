@@ -1,0 +1,303 @@
+{
+ "frames": [
+  {
+   "filename": "lanca_gelo 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 1",
+   "frame": {
+    "x": 176,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 2",
+   "frame": {
+    "x": 352,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 3",
+   "frame": {
+    "x": 0,
+    "y": 64,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 4",
+   "frame": {
+    "x": 176,
+    "y": 64,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 5",
+   "frame": {
+    "x": 352,
+    "y": 64,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 6",
+   "frame": {
+    "x": 0,
+    "y": 128,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 7",
+   "frame": {
+    "x": 176,
+    "y": 128,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 8",
+   "frame": {
+    "x": 352,
+    "y": 128,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 9",
+   "frame": {
+    "x": 0,
+    "y": 192,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 10",
+   "frame": {
+    "x": 176,
+    "y": 192,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  },
+  {
+   "filename": "lanca_gelo 11",
+   "frame": {
+    "x": 352,
+    "y": 192,
+    "w": 176,
+    "h": 64
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 64
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 64
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "lanca_gelo.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 528,
+   "h": 256
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "lanca_gelo",
+    "from": 0,
+    "to": 11,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "ice/ice-lance",
+   "name": "Ice lance",
+   "fps": 15,
+   "loop": true,
+   "frames": 12,
+   "frameSize": [
+    176,
+    64
+   ],
+   "pivot": [
+    146,
+    32
+   ],
+   "columns": 3
+  }
+ }
+}

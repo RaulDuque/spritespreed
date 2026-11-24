@@ -1,0 +1,373 @@
+{
+ "npcs": {
+  "vigia": {
+   "nome": "Aldric, o Vigia",
+   "retrato": "retratos/vigia.png",
+   "entradas": [
+    {
+     "se": [
+      "missao:o_sussurro:PRONTA_PARA_ENTREGAR"
+     ],
+     "no": "relatorio"
+    },
+    {
+     "se": [
+      "pode_aceitar:o_sussurro"
+     ],
+     "no": "abertura"
+    },
+    {
+     "se": [
+      "missao:o_sussurro:ATIVA"
+     ],
+     "no": "lembrete"
+    },
+    {
+     "no": "epilogo"
+    }
+   ],
+   "nos": {
+    "abertura": {
+     "texto": "Você aí, de cabelos de prata. Não é daqui, é? Então escute: toda noite, desde a última lua cheia, ouço sussurros vindos da catedral em ruínas.",
+     "proximo": "abertura2"
+    },
+    "abertura2": {
+     "texto": "Os cultistas voltaram. E os mortos não ficam mais nas covas. Preciso de alguém que desça até lá e descubra o que estão tramando.",
+     "opcoes": [
+      {
+       "texto": "Eu vou investigar a catedral.",
+       "acoes": [
+        "aceitar:o_sussurro"
+       ],
+       "proximo": "aceito"
+      },
+      {
+       "texto": "O que são esses sussurros?",
+       "proximo": "explica"
+      },
+      {
+       "texto": "Agora não.",
+       "proximo": null
+      }
+     ]
+    },
+    "explica": {
+     "texto": "Vozes, rapaz. Em língua nenhuma que eu conheça. A Irmã Mirela diz que já ouviu antes, quando era menina. Pergunte a ela, se tiver coragem.",
+     "proximo": "abertura2"
+    },
+    "aceito": {
+     "texto": "Que a luz da sua lanterna não se apague. A estrada a leste leva às ruínas. Fale com a Curandeira antes: ela sabe mais do que diz.",
+     "proximo": null
+    },
+    "lembrete": {
+     "texto": "Os sussurros ficaram mais altos esta noite. Encontrou o altar? Quantos cultistas ainda respiram?",
+     "opcoes": [
+      {
+       "texto": "Vigie meu caminho. (Salvar o jogo)",
+       "acoes": [
+        "salvar"
+       ],
+       "proximo": "salvo"
+      },
+      {
+       "texto": "Ainda estou trabalhando nisso.",
+       "proximo": null
+      }
+     ]
+    },
+    "salvo": {
+     "texto": "Anotarei sua passagem no livro do portão. Se cair, alguém há de lembrar de você.",
+     "proximo": null
+    },
+    "relatorio": {
+     "texto": "Esse selo... é o símbolo da Ordem do Cálice Rubro. Eles não estavam só rezando. Estavam chamando algo.",
+     "opcoes": [
+      {
+       "texto": "Os cultistas não chamarão mais nada.",
+       "acoes": [
+        "entregar:o_sussurro"
+       ],
+       "proximo": "gratidao"
+      }
+     ]
+    },
+    "gratidao": {
+     "texto": "Cinzavale te deve a vida. Mas o selo ainda está quente, sente? O que eles chamaram... talvez já tenha atendido.",
+     "proximo": null
+    },
+    "epilogo": {
+     "texto": "Os sussurros pararam. Por enquanto. Durma com a lanterna acesa, caçador.",
+     "opcoes": [
+      {
+       "texto": "Vigie meu caminho. (Salvar o jogo)",
+       "acoes": [
+        "salvar"
+       ],
+       "proximo": "salvo"
+      },
+      {
+       "texto": "Boa vigília, Aldric.",
+       "proximo": null
+      }
+     ]
+    }
+   }
+  },
+  "ferreiro": {
+   "nome": "Bram, o Ferreiro",
+   "retrato": "retratos/ferreiro.png",
+   "entradas": [
+    {
+     "se": [
+      "missao:ferro_amaldicoado:PRONTA_PARA_ENTREGAR"
+     ],
+     "no": "entrega"
+    },
+    {
+     "se": [
+      "pode_aceitar:ferro_amaldicoado"
+     ],
+     "no": "oferta"
+    },
+    {
+     "se": [
+      "missao:ferro_amaldicoado:ATIVA"
+     ],
+     "no": "lembrete"
+    },
+    {
+     "no": "conversa"
+    }
+   ],
+   "nos": {
+    "oferta": {
+     "texto": "Essa lâmina de prata é bonita, mas não corta maldição. Os carniçais das ruínas têm ferro negro crescendo por dentro. Traga-me três fragmentos.",
+     "opcoes": [
+      {
+       "texto": "Trarei os fragmentos.",
+       "acoes": [
+        "aceitar:ferro_amaldicoado"
+       ],
+       "proximo": "aceito"
+      },
+      {
+       "texto": "Como troco de arma?",
+       "proximo": "armas"
+      },
+      {
+       "texto": "Talvez depois.",
+       "proximo": null
+      }
+     ]
+    },
+    "aceito": {
+     "texto": "Corte fundo. O ferro só se solta quando o carniçal cai de vez.",
+     "proximo": null
+    },
+    "armas": {
+     "texto": "Gire a roda do mouse ou aperte Tab para trocar entre espada, adagas, machado, foice e bastão. R troca entre arco, besta e bumerangue. Cada arma tem seu ritmo.",
+     "proximo": "oferta"
+    },
+    "lembrete": {
+     "texto": "Nada de fragmentos ainda? A bigorna está fria esperando por você.",
+     "opcoes": [
+      {
+       "texto": "Como troco de arma?",
+       "proximo": "armas_lembrete"
+      },
+      {
+       "texto": "Já volto.",
+       "proximo": null
+      }
+     ]
+    },
+    "armas_lembrete": {
+     "texto": "Roda do mouse ou Tab para as lâminas. R para as armas de longe. Segure o botão direito para carregar um disparo que atravessa tudo.",
+     "proximo": null
+    },
+    "entrega": {
+     "texto": "Por todos os santos... ainda estão quentes. Me dê isso aqui, e segure firme sua lâmina.",
+     "opcoes": [
+      {
+       "texto": "Entregar os fragmentos.",
+       "acoes": [
+        "entregar:ferro_amaldicoado"
+       ],
+       "proximo": "forjado"
+      }
+     ]
+    },
+    "forjado": {
+     "texto": "Pronto. Prata por fora, ferro maldito por dentro. Agora ela corta o que não deveria existir.",
+     "proximo": null
+    },
+    "conversa": {
+     "texto": "O fogo da forja é a única luz que não tem medo desta vila. Volte quando precisar de aço.",
+     "proximo": null
+    }
+   }
+  },
+  "curandeira": {
+   "nome": "Irmã Mirela, a Curandeira",
+   "retrato": "retratos/curandeira.png",
+   "entradas": [
+    {
+     "se": [
+      "missao:cinzas_da_memoria:PRONTA_PARA_ENTREGAR"
+     ],
+     "no": "entrega"
+    },
+    {
+     "se": [
+      "missao:o_sussurro:ATIVA",
+      "!objetivo:o_sussurro:0:completo"
+     ],
+     "no": "sussurros"
+    },
+    {
+     "se": [
+      "pode_aceitar:cinzas_da_memoria"
+     ],
+     "no": "oferta"
+    },
+    {
+     "se": [
+      "missao:cinzas_da_memoria:ATIVA"
+     ],
+     "no": "lembrete"
+    },
+    {
+     "no": "conversa"
+    }
+   ],
+   "nos": {
+    "sussurros": {
+     "texto": "Então Aldric também ouve... Eu tinha sete anos na última vez. Os sussurros vêm do altar sob a nave. Eles pedem sangue, e alguém está respondendo.",
+     "proximo": "sussurros2"
+    },
+    "sussurros2": {
+     "texto": "Procure o altar profanado na capela ao norte da nave. E corte o seu sangue para conjurar, filho: mana bebida de inimigos é a única que não apodrece lá embaixo.",
+     "opcoes": [
+      {
+       "texto": "Posso ajudá-la em algo?",
+       "proximo": "oferta_condicional"
+      },
+      {
+       "texto": "Pode cuidar dos meus ferimentos?",
+       "acoes": [
+        "curar"
+       ],
+       "proximo": "curado"
+      },
+      {
+       "texto": "Obrigado, Irmã.",
+       "proximo": null
+      }
+     ]
+    },
+    "oferta_condicional": {
+     "texto": "Talvez. Meus frascos estão secando.",
+     "opcoes": [
+      {
+       "texto": "Diga o que precisa.",
+       "se": [
+        "pode_aceitar:cinzas_da_memoria"
+       ],
+       "proximo": "oferta"
+      },
+      {
+       "texto": "Já estou cuidando das ervas.",
+       "se": [
+        "missao:cinzas_da_memoria:ATIVA"
+       ],
+       "proximo": "lembrete"
+      },
+      {
+       "texto": "Até logo.",
+       "proximo": null
+      }
+     ]
+    },
+    "oferta": {
+     "texto": "As ervas pálidas florescem entre os ossos das ruínas. Sem elas, não consigo encher seus frascos de sangue. Traga-me quatro.",
+     "opcoes": [
+      {
+       "texto": "Trarei as ervas.",
+       "acoes": [
+        "aceitar:cinzas_da_memoria"
+       ],
+       "proximo": "aceito"
+      },
+      {
+       "texto": "Pode cuidar dos meus ferimentos?",
+       "acoes": [
+        "curar"
+       ],
+       "proximo": "curado"
+      },
+      {
+       "texto": "Agora não.",
+       "proximo": null
+      }
+     ]
+    },
+    "aceito": {
+     "texto": "Que a memória dos mortos te guie. E aperte F para beber de um frasco quando a carne fraquejar.",
+     "proximo": null
+    },
+    "lembrete": {
+     "texto": "As ervas ainda não chegaram. Elas brilham pálidas no escuro, você não vai confundi-las.",
+     "opcoes": [
+      {
+       "texto": "Pode cuidar dos meus ferimentos?",
+       "acoes": [
+        "curar"
+       ],
+       "proximo": "curado"
+      },
+      {
+       "texto": "Voltarei com elas.",
+       "proximo": null
+      }
+     ]
+    },
+    "entrega": {
+     "texto": "Ah... o cheiro de cinzas e memória. São perfeitas.",
+     "opcoes": [
+      {
+       "texto": "Entregar as ervas.",
+       "acoes": [
+        "entregar:cinzas_da_memoria"
+       ],
+       "proximo": "agradece"
+      }
+     ]
+    },
+    "agradece": {
+     "texto": "Com elas posso destilar mais frascos para você. Leve dois a mais, e volte vivo.",
+     "proximo": null
+    },
+    "curado": {
+     "texto": "Pronto. Suas feridas fecharam e seus frascos estão cheios. Não desperdice o sangue dos outros.",
+     "proximo": null
+    },
+    "conversa": {
+     "texto": "A vila dorme mal, mas dorme. Sente-se um pouco perto do fogo, se quiser.",
+     "opcoes": [
+      {
+       "texto": "Pode cuidar dos meus ferimentos?",
+       "acoes": [
+        "curar"
+       ],
+       "proximo": "curado"
+      },
+      {
+       "texto": "Até logo, Irmã.",
+       "proximo": null
+      }
+     ]
+    }
+   }
+  }
+ }
+}

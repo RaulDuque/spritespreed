@@ -1,0 +1,319 @@
+{
+ "efeitos": {
+  "lamina_corte": {
+   "id": "melee/sword-slash",
+   "json": "lamina_corte.json",
+   "quadros": 12,
+   "fps": 15,
+   "loop": false
+  },
+  "lamina_final": {
+   "id": "melee/double-slash",
+   "json": "lamina_final.json",
+   "quadros": 13,
+   "fps": 15,
+   "loop": false
+  },
+  "adaga_corte": {
+   "id": "melee/dagger-flurry",
+   "json": "adaga_corte.json",
+   "quadros": 15,
+   "fps": 15,
+   "loop": false
+  },
+  "machado_corte": {
+   "id": "melee/heavy-cleave",
+   "json": "machado_corte.json",
+   "quadros": 30,
+   "fps": 15,
+   "loop": false
+  },
+  "foice_corte": {
+   "id": "melee/scythe-reap",
+   "json": "foice_corte.json",
+   "quadros": 33,
+   "fps": 15,
+   "loop": false
+  },
+  "bastao_golpe": {
+   "id": "impacts/blunt-hit",
+   "json": "bastao_golpe.json",
+   "quadros": 15,
+   "fps": 15,
+   "loop": false
+  },
+  "impacto_sangue": {
+   "id": "impacts/hit-spark",
+   "json": "impacto_sangue.json",
+   "quadros": 9,
+   "fps": 15,
+   "loop": false
+  },
+  "impacto_critico": {
+   "id": "impacts/crit-hit",
+   "json": "impacto_critico.json",
+   "quadros": 15,
+   "fps": 15,
+   "loop": false
+  },
+  "flecha": {
+   "id": "projectiles/arrow",
+   "json": "flecha.json",
+   "quadros": 9,
+   "fps": 15,
+   "loop": true
+  },
+  "virote": {
+   "id": "projectiles/arrow",
+   "json": "virote.json",
+   "quadros": 9,
+   "fps": 15,
+   "loop": true
+  },
+  "bumerangue": {
+   "id": "projectiles/energy-disc",
+   "json": "bumerangue.json",
+   "quadros": 8,
+   "fps": 15,
+   "loop": true
+  },
+  "carga_disparo": {
+   "id": "arcane/spell-charge",
+   "json": "carga_disparo.json",
+   "quadros": 24,
+   "fps": 15,
+   "loop": true
+  },
+  "orbe_sangue": {
+   "id": "arcane/arcane-orb",
+   "json": "orbe_sangue.json",
+   "quadros": 36,
+   "fps": 15,
+   "loop": true
+  },
+  "orbe_sangue_explosao": {
+   "id": "explosions/implosion",
+   "json": "orbe_sangue_explosao.json",
+   "quadros": 26,
+   "fps": 15,
+   "loop": false
+  },
+  "nevoa_cortante": {
+   "id": "nature/poison-cloud",
+   "json": "nevoa_cortante.json",
+   "quadros": 60,
+   "fps": 15,
+   "loop": true
+  },
+  "correntes_sombrias": {
+   "id": "shadow/shadow-tendrils",
+   "json": "correntes_sombrias.json",
+   "quadros": 49,
+   "fps": 15,
+   "loop": false
+  },
+  "sangria_vital": {
+   "id": "shadow/life-steal",
+   "json": "sangria_vital.json",
+   "quadros": 34,
+   "fps": 15,
+   "loop": false
+  },
+  "sede_de_sangue": {
+   "id": "status/rage",
+   "json": "sede_de_sangue.json",
+   "quadros": 18,
+   "fps": 15,
+   "loop": true
+  },
+  "esquiva_sombria": {
+   "id": "arcane/blink-out",
+   "json": "esquiva_sombria.json",
+   "quadros": 25,
+   "fps": 15,
+   "loop": false
+  },
+  "tocha": {
+   "id": "fire/torch",
+   "json": "tocha.json",
+   "quadros": 30,
+   "fps": 15,
+   "loop": true
+  },
+  "braseiro": {
+   "id": "fire/brazier",
+   "json": "braseiro.json",
+   "quadros": 45,
+   "fps": 15,
+   "loop": true
+  },
+  "subir_nivel": {
+   "id": "ui/level-up",
+   "json": "subir_nivel.json",
+   "quadros": 49,
+   "fps": 15,
+   "loop": false
+  },
+  "cura": {
+   "id": "holy/heal",
+   "json": "cura.json",
+   "quadros": 30,
+   "fps": 15,
+   "loop": false
+  },
+  "habilidade_desbloqueada": {
+   "id": "arcane/mana-burst",
+   "json": "habilidade_desbloqueada.json",
+   "quadros": 28,
+   "fps": 15,
+   "loop": false
+  },
+  "morte_inimigo": {
+   "id": "spawn/disintegrate",
+   "json": "morte_inimigo.json",
+   "quadros": 52,
+   "fps": 15,
+   "loop": false
+  },
+  "coleta": {
+   "id": "pickups/collect-burst",
+   "json": "coleta.json",
+   "quadros": 21,
+   "fps": 15,
+   "loop": false
+  },
+  "fragmento_ferro": {
+   "id": "pickups/crystal-shard",
+   "json": "fragmento_ferro.json",
+   "quadros": 48,
+   "fps": 15,
+   "loop": true
+  },
+  "erva_palida": {
+   "id": "pickups/gem-spin",
+   "json": "erva_palida.json",
+   "quadros": 36,
+   "fps": 15,
+   "loop": true
+  },
+  "morcego": {
+   "id": "critters/bat",
+   "json": "morcego.json",
+   "quadros": 36,
+   "fps": 15,
+   "loop": true
+  },
+  "nevoa_ambiente": {
+   "id": "weather/fog",
+   "json": "nevoa_ambiente.json",
+   "quadros": 180,
+   "fps": 15,
+   "loop": true
+  },
+  "bola_fogo": {
+   "id": "fire/fireball",
+   "json": "bola_fogo.json",
+   "quadros": 18,
+   "fps": 15,
+   "loop": true
+  },
+  "bola_fogo_explosao": {
+   "id": "explosions/plasma-explosion",
+   "json": "bola_fogo_explosao.json",
+   "quadros": 27,
+   "fps": 15,
+   "loop": false
+  },
+  "lanca_gelo": {
+   "id": "ice/ice-lance",
+   "json": "lanca_gelo.json",
+   "quadros": 12,
+   "fps": 15,
+   "loop": true
+  },
+  "gelo_impacto": {
+   "id": "ice/ice-shatter",
+   "json": "gelo_impacto.json",
+   "quadros": 43,
+   "fps": 15,
+   "loop": false
+  },
+  "lentidao": {
+   "id": "status/slowed",
+   "json": "lentidao.json",
+   "quadros": 36,
+   "fps": 15,
+   "loop": true
+  },
+  "relampago": {
+   "id": "lightning/chain-lightning",
+   "json": "relampago.json",
+   "quadros": 28,
+   "fps": 15,
+   "loop": false
+  },
+  "relampago_impacto": {
+   "id": "lightning/zap-hit",
+   "json": "relampago_impacto.json",
+   "quadros": 15,
+   "fps": 15,
+   "loop": false
+  },
+  "escudo_arcano": {
+   "id": "holy/divine-shield",
+   "json": "escudo_arcano.json",
+   "quadros": 36,
+   "fps": 15,
+   "loop": true
+  },
+  "drenar_vida": {
+   "id": "shadow/soul-drain",
+   "json": "drenar_vida.json",
+   "quadros": 48,
+   "fps": 15,
+   "loop": true
+  },
+  "familiar": {
+   "id": "critters/wisp",
+   "json": "familiar.json",
+   "quadros": 48,
+   "fps": 15,
+   "loop": true
+  },
+  "familiar_tiro": {
+   "id": "projectiles/plasma-shot",
+   "json": "familiar_tiro.json",
+   "quadros": 12,
+   "fps": 15,
+   "loop": true
+  },
+  "teleporte_saida": {
+   "id": "arcane/blink-out",
+   "json": "teleporte_saida.json",
+   "quadros": 25,
+   "fps": 15,
+   "loop": false
+  },
+  "teleporte_entrada": {
+   "id": "arcane/blink-in",
+   "json": "teleporte_entrada.json",
+   "quadros": 22,
+   "fps": 15,
+   "loop": false
+  },
+  "encantamento": {
+   "id": "fire/spirit-flame",
+   "json": "encantamento.json",
+   "quadros": 45,
+   "fps": 15,
+   "loop": true
+  },
+  "impacto_fogo": {
+   "id": "impacts/hit-spark",
+   "json": "impacto_fogo.json",
+   "quadros": 9,
+   "fps": 15,
+   "loop": false
+  }
+ }
+}

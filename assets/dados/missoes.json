@@ -1,0 +1,71 @@
+{
+ "missoes": [
+  {
+   "id": "o_sussurro",
+   "titulo": "O Sussurro sob a Catedral",
+   "principal": true,
+   "doador": "vigia",
+   "descricao": "Algo sussurra sob a catedral em ruínas. Investigue a corrupção, derrote os cultistas e reporte ao Vigia.",
+   "consumirItens": true,
+   "objetivos": [
+    {
+     "tipo": "FALAR_NPC",
+     "alvo": "curandeira",
+     "descricao": "Fale com a Curandeira"
+    },
+    {
+     "tipo": "COLETAR_ITEM",
+     "alvo": "selo_profano",
+     "quantidade": 1,
+     "descricao": "Investigue o altar"
+    },
+    {
+     "tipo": "MATAR_INIMIGO",
+     "alvo": "cultista",
+     "quantidade": 5,
+     "descricao": "Cultistas derrotados"
+    }
+   ],
+   "recompensa": {
+    "xp": 150,
+    "bonus": "fim_capitulo"
+   }
+  },
+  {
+   "id": "ferro_amaldicoado",
+   "titulo": "Ferro Amaldiçoado",
+   "doador": "ferreiro",
+   "descricao": "Bram, o Ferreiro, quer fragmentos do ferro negro que cresce nos carniçais.",
+   "objetivos": [
+    {
+     "tipo": "COLETAR_ITEM",
+     "alvo": "fragmento_ferro",
+     "quantidade": 3,
+     "descricao": "Fragmentos de ferro"
+    }
+   ],
+   "recompensa": {
+    "xp": 80,
+    "bonus": "lamina_reforjada"
+   }
+  },
+  {
+   "id": "cinzas_da_memoria",
+   "titulo": "Cinzas da Memória",
+   "doador": "curandeira",
+   "descricao": "A Irmã Mirela precisa de ervas pálidas que só brotam entre os mortos das ruínas.",
+   "objetivos": [
+    {
+     "tipo": "COLETAR_ITEM",
+     "alvo": "erva_palida",
+     "quantidade": 4,
+     "descricao": "Ervas pálidas"
+    }
+   ],
+   "recompensa": {
+    "xp": 80,
+    "bonus": "frasco_extra"
+   }
+  }
+ ]
+}

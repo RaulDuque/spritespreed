@@ -1,0 +1,64 @@
+# Fase 1: inventário, troca visual de equipamento (paper-doll) e escala 640x360.
+#   ANDV_ROTEIRO=tools/roteiros/equipamento.txt ./andvarion   (começar sem save)
+0.8 captura f00_menu.png
+1.0 tecla enter
+2.6 captura f01_vila.png
+2.8 mira 420 170
+2.9 clique
+3.15 clique
+3.4 clique
+3.25 captura f02_golpe.png
+4.0 tecla i
+4.6 captura f03_inventario.png
+4.80 tecla s
+4.92 tecla s
+5.04 tecla s
+5.16 tecla s
+5.28 tecla s
+5.40 tecla enter
+5.80 captura f04_cavaleiro.png
+6.00 tecla s
+6.12 tecla s
+6.24 tecla s
+6.36 tecla s
+6.48 tecla s
+6.60 tecla s
+6.72 tecla s
+6.84 tecla enter
+7.14 tecla w
+7.26 tecla w
+7.38 tecla w
+7.50 tecla w
+7.62 tecla w
+7.74 tecla w
+7.86 tecla w
+7.98 tecla w
+8.10 tecla enter
+8.50 captura f05_machado_escudo.png
+8.70 tecla i
+9.30 captura f06_mundo_cavaleiro.png
+9.50 mover 1 0 0.8
+9.90 captura f07_andando.png
+10.50 mira 300 120
+10.60 clique
+10.80 captura f08_machado.png
+11.30 tecla i
+11.70 tecla s
+11.82 tecla s
+11.94 tecla s
+12.06 tecla s
+12.18 tecla s
+12.30 tecla s
+12.42 tecla s
+12.64 tecla enter
+13.04 captura f09_tunica.png
+13.24 tecla i
+13.64 mover -1 0 0.4
+13.69 tecla espaco
+13.76 captura f10_esquiva.png
+14.44 mira 500 140
+14.54 direito 1.2
+15.44 captura f11_mira.png
+16.04 mover 0 -1 1.5
+17.64 captura f12_costas.png
+17.94 sair

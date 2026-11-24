@@ -1,0 +1,369 @@
+{
+ "frames": [
+  {
+   "filename": "impacto_critico 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 1",
+   "frame": {
+    "x": 216,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 2",
+   "frame": {
+    "x": 432,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 3",
+   "frame": {
+    "x": 648,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 4",
+   "frame": {
+    "x": 0,
+    "y": 136,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 5",
+   "frame": {
+    "x": 216,
+    "y": 136,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 6",
+   "frame": {
+    "x": 432,
+    "y": 136,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 7",
+   "frame": {
+    "x": 648,
+    "y": 136,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 8",
+   "frame": {
+    "x": 0,
+    "y": 272,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 9",
+   "frame": {
+    "x": 216,
+    "y": 272,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 10",
+   "frame": {
+    "x": 432,
+    "y": 272,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 11",
+   "frame": {
+    "x": 648,
+    "y": 272,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 12",
+   "frame": {
+    "x": 0,
+    "y": 408,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 13",
+   "frame": {
+    "x": 216,
+    "y": 408,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  },
+  {
+   "filename": "impacto_critico 14",
+   "frame": {
+    "x": 432,
+    "y": 408,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "impacto_critico.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 864,
+   "h": 544
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "impacto_critico",
+    "from": 0,
+    "to": 14,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "impacts/crit-hit",
+   "name": "Critical hit",
+   "fps": 15,
+   "loop": false,
+   "frames": 15,
+   "frameSize": [
+    216,
+    136
+   ],
+   "pivot": [
+    84,
+    106
+   ],
+   "columns": 4
+  }
+ }
+}

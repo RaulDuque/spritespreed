@@ -1,0 +1,7 @@
+Fonte opcional do jogo.
+
+Coloque aqui um arquivo "principal.ttf" (pixel font com acentos Latin-1) e o
+jogo passa a usá-lo automaticamente (ui/Fonte.cpp carrega os codepoints
+32-126 e 160-255: á, ã, â, ç, é, ê, í, ó, õ, ú...).
+
+Sem o arquivo, o jogo usa a fonte padrão da raylib, que já cobre ISO-8859-1.

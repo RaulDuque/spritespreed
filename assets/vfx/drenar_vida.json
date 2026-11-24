@@ -1,0 +1,1095 @@
+{
+ "frames": [
+  {
+   "filename": "drenar_vida 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 1",
+   "frame": {
+    "x": 208,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 2",
+   "frame": {
+    "x": 416,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 3",
+   "frame": {
+    "x": 624,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 4",
+   "frame": {
+    "x": 832,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 5",
+   "frame": {
+    "x": 1040,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 6",
+   "frame": {
+    "x": 0,
+    "y": 120,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 7",
+   "frame": {
+    "x": 208,
+    "y": 120,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 8",
+   "frame": {
+    "x": 416,
+    "y": 120,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 9",
+   "frame": {
+    "x": 624,
+    "y": 120,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 10",
+   "frame": {
+    "x": 832,
+    "y": 120,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 11",
+   "frame": {
+    "x": 1040,
+    "y": 120,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 12",
+   "frame": {
+    "x": 0,
+    "y": 240,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 13",
+   "frame": {
+    "x": 208,
+    "y": 240,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 14",
+   "frame": {
+    "x": 416,
+    "y": 240,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 15",
+   "frame": {
+    "x": 624,
+    "y": 240,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 16",
+   "frame": {
+    "x": 832,
+    "y": 240,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 17",
+   "frame": {
+    "x": 1040,
+    "y": 240,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 18",
+   "frame": {
+    "x": 0,
+    "y": 360,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 19",
+   "frame": {
+    "x": 208,
+    "y": 360,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 20",
+   "frame": {
+    "x": 416,
+    "y": 360,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 21",
+   "frame": {
+    "x": 624,
+    "y": 360,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 22",
+   "frame": {
+    "x": 832,
+    "y": 360,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 23",
+   "frame": {
+    "x": 1040,
+    "y": 360,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 24",
+   "frame": {
+    "x": 0,
+    "y": 480,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 25",
+   "frame": {
+    "x": 208,
+    "y": 480,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 26",
+   "frame": {
+    "x": 416,
+    "y": 480,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 27",
+   "frame": {
+    "x": 624,
+    "y": 480,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 28",
+   "frame": {
+    "x": 832,
+    "y": 480,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 29",
+   "frame": {
+    "x": 1040,
+    "y": 480,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 30",
+   "frame": {
+    "x": 0,
+    "y": 600,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 31",
+   "frame": {
+    "x": 208,
+    "y": 600,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 32",
+   "frame": {
+    "x": 416,
+    "y": 600,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 33",
+   "frame": {
+    "x": 624,
+    "y": 600,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 34",
+   "frame": {
+    "x": 832,
+    "y": 600,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 35",
+   "frame": {
+    "x": 1040,
+    "y": 600,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 36",
+   "frame": {
+    "x": 0,
+    "y": 720,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 37",
+   "frame": {
+    "x": 208,
+    "y": 720,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 38",
+   "frame": {
+    "x": 416,
+    "y": 720,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 39",
+   "frame": {
+    "x": 624,
+    "y": 720,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 40",
+   "frame": {
+    "x": 832,
+    "y": 720,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 41",
+   "frame": {
+    "x": 1040,
+    "y": 720,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 42",
+   "frame": {
+    "x": 0,
+    "y": 840,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 43",
+   "frame": {
+    "x": 208,
+    "y": 840,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 44",
+   "frame": {
+    "x": 416,
+    "y": 840,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 45",
+   "frame": {
+    "x": 624,
+    "y": 840,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 46",
+   "frame": {
+    "x": 832,
+    "y": 840,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  },
+  {
+   "filename": "drenar_vida 47",
+   "frame": {
+    "x": 1040,
+    "y": 840,
+    "w": 208,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 208,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 208,
+    "h": 120
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "drenar_vida.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1248,
+   "h": 960
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "drenar_vida",
+    "from": 0,
+    "to": 47,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "shadow/soul-drain",
+   "name": "Soul drain",
+   "fps": 15,
+   "loop": true,
+   "frames": 48,
+   "frameSize": [
+    208,
+    120
+   ],
+   "pivot": [
+    40,
+    110
+   ],
+   "columns": 6
+  }
+ }
+}

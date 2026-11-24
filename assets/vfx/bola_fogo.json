@@ -1,0 +1,435 @@
+{
+ "frames": [
+  {
+   "filename": "bola_fogo 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 1",
+   "frame": {
+    "x": 136,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 2",
+   "frame": {
+    "x": 272,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 3",
+   "frame": {
+    "x": 0,
+    "y": 56,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 4",
+   "frame": {
+    "x": 136,
+    "y": 56,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 5",
+   "frame": {
+    "x": 272,
+    "y": 56,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 6",
+   "frame": {
+    "x": 0,
+    "y": 112,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 7",
+   "frame": {
+    "x": 136,
+    "y": 112,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 8",
+   "frame": {
+    "x": 272,
+    "y": 112,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 9",
+   "frame": {
+    "x": 0,
+    "y": 168,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 10",
+   "frame": {
+    "x": 136,
+    "y": 168,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 11",
+   "frame": {
+    "x": 272,
+    "y": 168,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 12",
+   "frame": {
+    "x": 0,
+    "y": 224,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 13",
+   "frame": {
+    "x": 136,
+    "y": 224,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 14",
+   "frame": {
+    "x": 272,
+    "y": 224,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 15",
+   "frame": {
+    "x": 0,
+    "y": 280,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 16",
+   "frame": {
+    "x": 136,
+    "y": 280,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  },
+  {
+   "filename": "bola_fogo 17",
+   "frame": {
+    "x": 272,
+    "y": 280,
+    "w": 136,
+    "h": 56
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 56
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 56
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "bola_fogo.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 408,
+   "h": 336
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "bola_fogo",
+    "from": 0,
+    "to": 17,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "fire/fireball",
+   "name": "Fireball",
+   "fps": 15,
+   "loop": true,
+   "frames": 18,
+   "frameSize": [
+    136,
+    56
+   ],
+   "pivot": [
+    112,
+    28
+   ],
+   "columns": 3
+  }
+ }
+}

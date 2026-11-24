@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 21, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "win32-msvc",
+      "displayName": "Windows x86 (Visual Studio, Win32)",
+      "generator": "Visual Studio 17 2022",
+      "architecture": { "value": "Win32", "strategy": "set" },
+      "binaryDir": "${sourceDir}/build/win32-msvc",
+      "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Windows" }
+    },
+    {
+      "name": "mingw-i686",
+      "displayName": "Windows x86 (MinGW-w64 i686)",
+      "generator": "Ninja Multi-Config",
+      "toolchainFile": "${sourceDir}/cmake/toolchains/mingw-i686.cmake",
+      "binaryDir": "${sourceDir}/build/mingw-i686"
+    },
+    {
+      "name": "linux-i686",
+      "displayName": "Linux x86 (gcc -m32)",
+      "generator": "Ninja Multi-Config",
+      "toolchainFile": "${sourceDir}/cmake/toolchains/linux-i686.cmake",
+      "binaryDir": "${sourceDir}/build/linux-i686",
+      "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Linux" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "win32-msvc-debug",   "configurePreset": "win32-msvc", "configuration": "Debug" },
+    { "name": "win32-msvc-release", "configurePreset": "win32-msvc", "configuration": "Release" },
+    { "name": "mingw-i686-debug",   "configurePreset": "mingw-i686", "configuration": "Debug" },
+    { "name": "mingw-i686-release", "configurePreset": "mingw-i686", "configuration": "Release" },
+    { "name": "linux-i686-debug",   "configurePreset": "linux-i686", "configuration": "Debug" },
+    { "name": "linux-i686-release", "configurePreset": "linux-i686", "configuration": "Release" }
+  ],
+  "testPresets": [
+    { "name": "win32-msvc", "configurePreset": "win32-msvc", "configuration": "Release", "output": { "outputOnFailure": true } },
+    { "name": "mingw-i686", "configurePreset": "mingw-i686", "configuration": "Release", "output": { "outputOnFailure": true } },
+    { "name": "linux-i686", "configurePreset": "linux-i686", "configuration": "Release", "output": { "outputOnFailure": true } }
+  ]
+}

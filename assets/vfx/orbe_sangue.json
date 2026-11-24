@@ -1,0 +1,831 @@
+{
+ "frames": [
+  {
+   "filename": "orbe_sangue 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 1",
+   "frame": {
+    "x": 136,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 2",
+   "frame": {
+    "x": 272,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 3",
+   "frame": {
+    "x": 408,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 4",
+   "frame": {
+    "x": 544,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 5",
+   "frame": {
+    "x": 680,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 6",
+   "frame": {
+    "x": 0,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 7",
+   "frame": {
+    "x": 136,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 8",
+   "frame": {
+    "x": 272,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 9",
+   "frame": {
+    "x": 408,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 10",
+   "frame": {
+    "x": 544,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 11",
+   "frame": {
+    "x": 680,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 12",
+   "frame": {
+    "x": 0,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 13",
+   "frame": {
+    "x": 136,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 14",
+   "frame": {
+    "x": 272,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 15",
+   "frame": {
+    "x": 408,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 16",
+   "frame": {
+    "x": 544,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 17",
+   "frame": {
+    "x": 680,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 18",
+   "frame": {
+    "x": 0,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 19",
+   "frame": {
+    "x": 136,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 20",
+   "frame": {
+    "x": 272,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 21",
+   "frame": {
+    "x": 408,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 22",
+   "frame": {
+    "x": 544,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 23",
+   "frame": {
+    "x": 680,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 24",
+   "frame": {
+    "x": 0,
+    "y": 448,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 25",
+   "frame": {
+    "x": 136,
+    "y": 448,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 26",
+   "frame": {
+    "x": 272,
+    "y": 448,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 27",
+   "frame": {
+    "x": 408,
+    "y": 448,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 28",
+   "frame": {
+    "x": 544,
+    "y": 448,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 29",
+   "frame": {
+    "x": 680,
+    "y": 448,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 30",
+   "frame": {
+    "x": 0,
+    "y": 560,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 31",
+   "frame": {
+    "x": 136,
+    "y": 560,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 32",
+   "frame": {
+    "x": 272,
+    "y": 560,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 33",
+   "frame": {
+    "x": 408,
+    "y": 560,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 34",
+   "frame": {
+    "x": 544,
+    "y": 560,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  },
+  {
+   "filename": "orbe_sangue 35",
+   "frame": {
+    "x": 680,
+    "y": 560,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "orbe_sangue.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 816,
+   "h": 672
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "orbe_sangue",
+    "from": 0,
+    "to": 35,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "arcane/arcane-orb",
+   "name": "Arcane orb",
+   "fps": 15,
+   "loop": true,
+   "frames": 36,
+   "frameSize": [
+    136,
+    112
+   ],
+   "pivot": [
+    68,
+    104
+   ],
+   "columns": 6
+  }
+ }
+}

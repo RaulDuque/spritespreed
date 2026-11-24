@@ -1,0 +1,51 @@
+ANDVARION — O Sussurro sob a Catedral
+Versão de teste para Windows 10/11 (executável x86, 32 bits)
+=============================================================
+
+COMO TESTAR
+-----------
+1. Extraia o .zip para uma pasta (não rode de dentro do zip).
+2. Dê dois cliques em TESTAR_NO_WINDOWS.bat e escolha:
+     1  Jogar
+     2  Teste automático de missão/combate/ruínas (gera capturas de tela)
+     3  Teste automático de inventário/equipamento (gera capturas de tela)
+     4  Testes de lógica (resultado no próprio console)
+   Ou abra Andvarion.exe direto para jogar.
+
+Se o Windows mostrar "O Windows protegeu o computador" (SmartScreen), é porque
+o executável não tem assinatura digital: clique em "Mais informações" e depois
+em "Executar assim mesmo".
+
+REQUISITOS
+----------
+- Windows 10 ou 11 (64 ou 32 bits — o jogo é 32 bits e roda nos dois).
+- Placa de vídeo com OpenGL 3.3 (qualquer Intel/AMD/NVIDIA dos últimos 10 anos).
+- Nada para instalar: só DLLs do próprio Windows.
+
+CONTROLES
+---------
+  WASD / setas ........ andar
+  Botão esquerdo ...... Lâmina (combo de 3; cada acerto recupera Mana)
+  Botão direito ....... arma à distância (segure para carregar)
+  1, 2, 3, Q .......... magias do grimório
+  Espaço / Shift ...... Esquiva Sombria
+  E ................... conversar
+  F ................... Frasco de Sangue
+  Roda do mouse / Tab . trocar arma corpo a corpo     R ... trocar arma à distância
+  I ................... Inventário (equipar armaduras, capa, escudo, armas)
+  K ................... Árvore de Habilidades (passe o mouse numa magia e aperte 1/2/3/Q)
+  Esc ................. pausa
+
+ONDE FICAM AS COISAS
+--------------------
+  saves\save1.json ........ seu jogo salvo (criado ao salvar)
+  capturas_fumaca\ ........ capturas do teste automático 2
+  capturas_equipamento\ ... capturas do teste automático 3
+  assets\ ................. arte, mapas, diálogos, missões (não apague)
+
+OBSERVAÇÕES
+-----------
+- Os personagens, tiles e retratos ainda são arte PROVISÓRIA desenhada por
+  código; os efeitos de magia são do pixelfx.
+- Se a janela abrir preta ou fechar na hora, rode a opção 4 e envie o
+  resultado, junto com o modelo da placa de vídeo.
